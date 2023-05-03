@@ -1,0 +1,41 @@
+body{
+background-image: url(images/img-1.png);
+background-color: aqua;
+background: cover;
+}
+.container{
+    text-align: center;
+    margin-top: 20%;
+    height: 260px;
+    width: 40%;
+    border-radius: 23px;
+    margin-left: 300px;
+    background-color: rgb(20, 35, 51);
+    border: 9px solid black;
+}
+.container h1{
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(87, 87, 87);
+}
+.container input{
+    height: 30px;
+    width: 70%;
+    border-radius: 23px;
+}
+.container button{
+    height: 30px;
+    width: 20%;
+    background-color:aqua;
+    border-radius: 23px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(32, 32, 32);
+    transition: 1s;
+}
+#dialogboxhead{
+    margin-top: -5vh;
+    
+}
